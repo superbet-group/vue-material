@@ -203,7 +203,7 @@
       },
       createClickEventObserver () {
         if (document) {
-          this.MdMenu.bodyClickObserver = new MdObserveEvent(document.body, 'click', $event => {
+          this.MdMenu.bodyClickObserver = new MdObserveEvent(document.body, 'mousedown', $event => {
             $event.stopPropagation()
             if (!this.isMenu($event) && (this.MdMenu.closeOnClick || !this.isMenuContentEl($event))) {
               this.MdMenu.active = false

@@ -18,12 +18,12 @@
       waveStyles: null
     },
     mounted: function() {
-      this.animating = true;
+      // this.animating = true;
     },
     methods: {
       end () {
-        this.animating = false
-        this.$emit('md-end')
+        // this.animating = false
+        // this.$emit('md-end')
       }
     }
   })

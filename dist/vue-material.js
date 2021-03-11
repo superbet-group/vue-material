@@ -3696,12 +3696,12 @@ exports.default = new _MdComponent2.default({
     waveStyles: null
   },
   mounted: function mounted() {
-    this.animating = true;
+    // this.animating = true;
   },
   methods: {
     end: function end() {
-      this.animating = false;
-      this.$emit('md-end');
+      // this.animating = false
+      // this.$emit('md-end')
     }
   }
 }); //
